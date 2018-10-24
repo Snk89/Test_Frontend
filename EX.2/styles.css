@@ -1,0 +1,76 @@
+.container{
+  justify-items: center;
+  height: 300vh;
+  width: 100vw;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.Nav{
+  flex-grow: 0.1;
+  background: Orange;
+  width: 100vw;
+  display: flex;
+}
+.Header{
+  background: lightgray;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+ }
+.footer{
+  background: lightgray;
+  padding: 5px;
+  flex-grow: 3;
+  width: 100vw;
+  justify-items: center;
+  flex-direction: row;
+}
+.box{
+  flex-grow: 10;
+  height: 280vh;
+  width: 100vw;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height:800px; 
+}
+.main{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: inline-block;
+  padding: 5px;
+  background: gray;
+  flex-grow: 4;
+}
+.sub_main{
+  justify-content: space-around;
+  margin: 1vw;
+  padding: 5px;
+  display:flex;
+  flex-direction: column;
+  background:lightgrey;
+  align-items: left;
+  width: 30vw;
+  height:10vw;
+}
+.sub_main_2{ 
+  justify-content: space-around;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background: orange;
+  height:5vw;
+  flex-grow: 1;
+  
+}
+.aside_2{
+  background: lightgray;
+  padding: 5px;
+  flex-grow: 1;
+}
