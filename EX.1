@@ -1,0 +1,81 @@
+<div class="container">
+  <div class="h1"> 
+  <div> NEW LEFT</div>
+  <div> NEW RIGHT</div>
+  </div>
+  <div class="box">
+    <div class="aside_1">ASIDE 1</div>
+    <div class="main">MAIN CONTENT</div>
+    <div class="aside_2">ASIDE 2</div>
+  </div>
+  <div class="footer"> FOOTER</div>
+</div>
+
+.container{
+  justify-items: center;
+  height: 300vh;
+  width: 100vw;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.h1{
+  border: 1px solid;
+  background: #22D6A3;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+ }
+.footer{
+  border: 1px solid;
+  background: #22D6A3;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background: #22D6A3;
+  flex-grow: 1;
+  width: 100vw;
+}
+.box{
+  flex-grow: 10;
+  height: 280vh;
+  width: 100vw;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height:800px; 
+}
+.aside_1{
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+  background: #B6B6B6;
+}
+.main{
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 4;
+  background: white;
+}
+.aside_2{
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+  background: #3AA7E4;
+}
