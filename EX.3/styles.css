@@ -1,0 +1,61 @@
+.container{
+  margin: 5px;
+  background: purple;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.pre-Header{
+  flex-shrink:1;
+}
+.Header{
+  display: flex;
+  flex-wrap: no-wrap;
+  align-self: stretch;
+  width:500%;
+ }
+.main{
+  height:150vh;
+  background: black;
+}
+.box{
+  height: 40vh;
+  width: 30vw;
+  margin: 1vw;
+  align-self: center;
+  background: white;
+}
+.box2{
+  height: 40vh;
+  width: 62.5vw;
+  margin: 1vw;
+  align-self: center;
+  background: white;
+}
+.box3{
+  height: 80vh;
+  width: 15vw;
+  margin: 1vw;
+  align-self: center;
+  background: white;
+}
+.article{
+  background:gray;
+}
+.section{
+  flex-shrink:1;
+}
+.double-column{ 
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  width: 200%;
+}
